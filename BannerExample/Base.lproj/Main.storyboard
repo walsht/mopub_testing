@@ -20,12 +20,29 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwq-ka-8s0">
+                                <rect key="frame" x="16" y="52" width="343" height="37"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gwq-ka-8s0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1n1-t3-3Ge"/>
+                            <constraint firstItem="gwq-ka-8s0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7UD-rR-hYR"/>
+                            <constraint firstItem="gwq-ka-8s0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="I0i-uR-gvO"/>
+                            <constraint firstItem="gwq-ka-8s0" firstAttribute="top" secondItem="TWU-f5-Eu7" secondAttribute="bottom" constant="8" id="XPz-g7-1pi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="detail" destination="gwq-ka-8s0" id="nqy-PL-Zzx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204.80000000000001" y="365.75112443778113"/>
+            <point key="canvasLocation" x="204" y="365.02463054187194"/>
         </scene>
     </scenes>
 </document>
