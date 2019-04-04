@@ -22,12 +22,12 @@ class ViewController: UIViewController, GADBannerViewDelegate {
 
     override func viewDidLoad() {
     super.viewDidLoad()
-    print("\n\nGoogle Mobile Ads SDK version: \(GADRequest.sdkVersion()) - 'GoogleMobileAdsMediationMoPub', '5.4.1'\n\n")
+    print("\n\nGoogle Mobile Ads SDK version: \(GADRequest.sdkVersion()) - 'GoogleMobileAdsMediationMoPub', '4.16.0'\n\n")
 //        setUpBanner(banner: bannerView)
 //        setUpBanner(banner: bannerViewBig)
         var validAdSizes = [CGSize]()
         validAdSizes.append(CGSize(width: 300.0, height: 250.0))
-        validAdSizes.append(CGSize(width: 350.0, height: 50.0))
+        validAdSizes.append(CGSize(width: 320.0, height: 50.0))
         let tempBannerView = DFPBannerView(adSize: GADAdSizeFromCGSize(validAdSizes.first!))
         tempBannerView.validAdSizes = validAdSizes.map { NSValueFromGADAdSize(GADAdSizeFromCGSize($0)) }
         view.addSubview(tempBannerView)
@@ -58,9 +58,9 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         targeting["vguid"] = "98ae572e-2afb-4888-ab4a-df18b715733a"
         request.customTargeting = targeting
         
-//        let moPubExtras = GADMoPubNetworkExtras()
-//        moPubExtras.privacyIconSize = 20
-//        request.register(moPubExtras)
+        let moPubExtras = GADMoPubNetworkExtras()
+        moPubExtras.privacyIconSize = 20
+        request.register(moPubExtras)
         
         banner.load(request)
     }

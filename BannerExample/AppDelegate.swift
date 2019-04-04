@@ -26,12 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication,
       didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-    let mopubConfig = MPMoPubConfiguration.init(adUnitIdForAppInitialization: "652c5ed280be404ea2d10fc2ae26dc5f")
-    
     MPLogSetLevel(MPLogLevelAll)
-    MoPub.sharedInstance().initializeSdk(with: mopubConfig, completion: nil)
-    // Initialize Google Mobile Ads SDK
-    GADMobileAds.sharedInstance().start(completionHandler: nil)
+    
+    // Used only for latest SDKs
+//    let mopubConfig = MPMoPubConfiguration.init(adUnitIdForAppInitialization: "652c5ed280be404ea2d10fc2ae26dc5f")
+//    MoPub.sharedInstance().initializeSdk(with: mopubConfig, completion: nil)
+//    // Initialize Google Mobile Ads SDK
+//    GADMobileAds.sharedInstance().start(completionHandler: nil)
     return true
   }
 

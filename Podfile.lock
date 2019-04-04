@@ -1,59 +1,25 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.42.2):
-    - GoogleAppMeasurement (~> 5.7)
-  - GoogleAppMeasurement (5.8.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
-    - GoogleUtilities/MethodSwizzler (~> 5.2)
-    - GoogleUtilities/Network (~> 5.2)
-    - "GoogleUtilities/NSData+zlib (~> 5.2)"
-    - nanopb (~> 0.3)
-  - GoogleMobileAdsMediationMoPub (5.4.1.0):
+  - Google-Mobile-Ads-SDK (7.32.0)
+  - GoogleMobileAdsMediationMoPub (4.16.0.0):
     - Google-Mobile-Ads-SDK (>= 7.14.0)
-    - mopub-ios-sdk/Core (= 5.4.1)
-  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
-    - GoogleUtilities/Environment
-    - GoogleUtilities/Logger
-    - GoogleUtilities/Network
-  - GoogleUtilities/Environment (5.5.0)
-  - GoogleUtilities/Logger (5.5.0):
-    - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (5.5.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/Network (5.5.0):
-    - GoogleUtilities/Logger
-    - "GoogleUtilities/NSData+zlib"
-    - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (5.5.0)"
-  - GoogleUtilities/Reachability (5.5.0):
-    - GoogleUtilities/Logger
-  - mopub-ios-sdk/Core (5.4.1)
-  - nanopb (0.3.901):
-    - nanopb/decode (= 0.3.901)
-    - nanopb/encode (= 0.3.901)
-  - nanopb/decode (0.3.901)
-  - nanopb/encode (0.3.901)
+    - mopub-ios-sdk/Core (= 4.16.0)
+  - mopub-ios-sdk/Core (4.16.0)
 
 DEPENDENCIES:
-  - Google-Mobile-Ads-SDK
-  - GoogleMobileAdsMediationMoPub (= 5.4.1)
+  - Google-Mobile-Ads-SDK (= 7.32)
+  - GoogleMobileAdsMediationMoPub (= 4.16.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Google-Mobile-Ads-SDK
-    - GoogleAppMeasurement
     - GoogleMobileAdsMediationMoPub
-    - GoogleUtilities
     - mopub-ios-sdk
-    - nanopb
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 8f4f7e793bfd3fff5b082181b54112f81b579a67
-  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
-  GoogleMobileAdsMediationMoPub: b03d1d1c213583b5395c97408aebdc014624e44a
-  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
-  mopub-ios-sdk: 320de49dd0a352ac58d33104a23853e749a84a78
-  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Google-Mobile-Ads-SDK: 2aca87e46e860f1e1fc0fdc1201dd9caa4be9ba6
+  GoogleMobileAdsMediationMoPub: 770a5b8f4225eed982779a8a0e217b49f9b3257b
+  mopub-ios-sdk: d656c7b5ccecc309115ac1ea280de76c72a301f7
 
-PODFILE CHECKSUM: ff5049cfd2f4d6b8d9ee61dbfd9bc87c085b965a
+PODFILE CHECKSUM: 90191df9f5e1fe5c0e0d33924aac5c8716605239
 
 COCOAPODS: 1.5.3
