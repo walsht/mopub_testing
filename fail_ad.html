@@ -1,0 +1,33 @@
+<!DOCTYPE html> <html> <head>  <!-- Adgroup is f5a28a16cb09466f905d7994769e920b -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -150px !important; margin-top: -125px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "cfc0e1c0f270d0f3f37b1dc4a99cf61e",
+
+        "adspace_width": 300,
+
+        "adspace_height": 250,
+
+        "o_iosadvid": "BD40D08B-EEA0-40DD-9864-BC8F0FD3F986",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
