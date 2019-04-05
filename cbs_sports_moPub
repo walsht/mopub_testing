@@ -1,0 +1,327 @@
+2019-04-05 15:47:16.622701-0500 BannerExample[27236:13141818] [DYMTLInitPlatform] platform initialization successful
+2019-04-05 15:47:16.927446-0500 BannerExample[27236:13141752] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2019-04-05 15:47:16.927930-0500 BannerExample[27236:13141752] [MC] Reading from public effective user settings.
+2019-04-05 15:47:17.274682-0500 BannerExample[27236:13141752] MOPUB: GDPR not applicable, consent synchronization will complete immediately
+
+
+Google Mobile Ads SDK version: afma-sdk-i-v7.32.0 - 'GoogleMobileAdsMediationMoPub', '4.16.0'
+
+
+2019-04-05 15:47:17.311507-0500 BannerExample[27236:13141752] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:47:17.314464-0500 BannerExample[27236:13141815] <Google> To get test ads on this device, call: request.testDevices = @[ @"824ac90473b15495ca93c27cfb07fd13" ];
+2019-04-05 15:47:17.335941-0500 BannerExample[27236:13141822] Metal GPU Frame Capture Enabled
+2019-04-05 15:47:17.411377-0500 BannerExample[27236:13141822] Metal API Validation Enabled
+2019-04-05 15:47:17.862935-0500 BannerExample[27236:13141839] WF: === Starting WebFilter logging for process BannerExample
+2019-04-05 15:47:17.863096-0500 BannerExample[27236:13141839] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:47:17.863267-0500 BannerExample[27236:13141839] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:47:18.264914-0500 BannerExample[27236:13141809] <Google:HTML> You are currently using version 7.32.0 of the SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be downloaded from https://goo.gl/UoiJ8F. A full list of release notes is available at https://developers.google.com/admob/ios/rel-notes.
+2019-04-05 15:47:18.832779-0500 BannerExample[27236:13141815] <Google> Cannot find an ad network adapter with the name(s): GADMAdapterInMobi. Remember to link all required ad network adapters and SDKs, and set -ObjC in the 'Other Linker Flags' setting of your build target.
+2019-04-05 15:47:18.835188-0500 BannerExample[27236:13141815] <Google> Cannot find an ad network adapter with the name(s): GADMAdapterInMobi. Remember to link all required ad network adapters and SDKs, and set -ObjC in the 'Other Linker Flags' setting of your build target.
+2019-04-05 15:47:18.835360-0500 BannerExample[27236:13141815] <Google> Cannot find an ad network adapter with the name(s): GADMAdapterInMobi. Remember to link all required ad network adapters and SDKs, and set -ObjC in the 'Other Linker Flags' setting of your build target.
+2019-04-05 15:47:18.835502-0500 BannerExample[27236:13141815] <Google> Cannot find an ad network adapter with the name(s): GADMAdapterInMobi. Remember to link all required ad network adapters and SDKs, and set -ObjC in the 'Other Linker Flags' setting of your build target.
+2019-04-05 15:47:18.881351-0500 BannerExample[27236:13141752] MOPUB: Will not start location updates: the application is not authorized for location services.
+2019-04-05 15:47:18.882164-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"43","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"0ad9e6c4c1ab4127ad5b1e76c4055b2c","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:47:18.882629-0500 BannerExample[27236:13141752] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:47:18.882797-0500 BannerExample[27236:13141815] <Google> Cannot find Custom Event class named VWDFPCustomEventBanner_iOS.
+2019-04-05 15:47:18.884338-0500 BannerExample[27236:13141752] MOPUB: Location authorization status changed to: 0
+2019-04-05 15:47:18.884406-0500 BannerExample[27236:13141752] MOPUB: Stopping any scheduled location updates.
+2019-04-05 15:47:19.747322-0500 BannerExample[27236:13141752] MOPUB: There are 1 ad responses
+2019-04-05 15:47:19.749589-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:19.752405-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:19.752715-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:19.753200-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 32e4a4d5e8314733813d9106b60b581a -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -150px !important; margin-top: -125px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <div id="smt-130549579" style="padding:0px"></div>
+<script type="text/javascript" src="http://soma-assets.smaato.net/js/smaatoAdTag.js"></script>
+<script>
+	function callBackForSmaato(status){
+		if(status == "SUCCESS"){
+			console.log("SUCCESS");
+		} else if (status == "ERROR"){
+			document.write('<iframe type="text/javascript" src="mopub://failLoad"><\/iframe><script>window.stop();<\/script>');
+		}
+	};
+	var smtLat = "0";
+	var smtLong = "0";
+	if(smtLat === "0" && smtLong === "0"){
+		smtLat = "";
+		smtLong = "";
+	}
+	SomaJS.loadAd({
+		adDivId: "smt-130549579",
+		publisherId: 1100001679,
+		adSpaceId: 130549579,
+		format: "all",
+		formatstrict: true,
+		dimension: "medrect",
+		dimensionstrict: true,
+		did: "511F9398-41B4-46E5-A5E7-4C730C70D362",
+		diddnt: ("0" == "1"),
+		latitude: smtLat,
+		longitude: smtLong,
+		age: "",
+		gender: "",
+		keywords: "gmext,,",
+		cb: "1554497238920",
+		sync: true
+	},callBackForSmaato);
+</script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:19.992111-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:21.483792-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:21.483913-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:21.484755-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"64617","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"43","rtc":"1","gdpr_applies":"0","request_id":"a5dd7340271b4d5f94250e36913ba1e0","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"0ad9e6c4c1ab4127ad5b1e76c4055b2c","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"32e4a4d5e8314733813d9106b60b581a"}
+2019-04-05 15:47:21.547705-0500 BannerExample[27236:13141752] MOPUB: There are 1 ad responses
+2019-04-05 15:47:21.547940-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:47:21.547994-0500 BannerExample[27236:13141752] MOPUB: No ads found for ad unit: 0ad9e6c4c1ab4127ad5b1e76c4055b2c
+2019-04-05 15:47:21.557499-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"8","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"53206cc199e541559d532d4f929af93c","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:47:21.557776-0500 BannerExample[27236:13141752] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:47:21.557905-0500 BannerExample[27236:13141752] MOPUB: Scheduled the autorefresh timer to fire in 30.0 seconds (0x2835db640).
+2019-04-05 15:47:21.558086-0500 BannerExample[27236:13141752] MOPUB: Banner view (0ad9e6c4c1ab4127ad5b1e76c4055b2c) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:47:22.321240-0500 BannerExample[27236:13141752] MOPUB: There are 3 ad responses
+2019-04-05 15:47:22.323412-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:22.325661-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:22.325962-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:22.326384-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is b42a304cb9a048b1920b6710e3256fb5 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <div id="aolContainer">
+
+<script src="https://ads.nexage.com/adServe?dcn=2c9d2b5001626243a16a53f574fb0166&pos=sports_ios_320x50_premium&grp=&req(loc)=0,0&loctype=1&d(id24)=511F9398-41B4-46E5-A5E7-4C730C70D362&dnt=0&of=js&secure=1"></script>
+
+</div>
+
+<script>
+
+  var t = trackImpressionHelper;
+
+  trackImpressionHelper = null;
+
+  if ( document.getElementById("aolContainer").childElementCount > 1 ) {
+
+    window.location="mopub://finishLoad";
+
+    t();
+
+  }
+
+</script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:22.386946-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:22.993047-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:22.993364-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:22.993721-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:22.995310-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:22.995565-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:22.996473-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is a620bbf3bcd449c9982af05bd8f2e1d0 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "44c9033094eb63c42bcce1b959d9f401",
+
+        "adspace_width": 320,
+
+        "adspace_height": 50,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "307184892",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:23.065607-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:23.550724-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:23.550913-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:23.551139-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:23.552208-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:23.552328-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:23.552712-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is be657f7bb88f44f5ad779e668d0cba68 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <div id="smt-130549578" style="padding:0px"></div>
+<script type="text/javascript" src="http://soma-assets.smaato.net/js/smaatoAdTag.js"></script>
+<script>
+	function callBackForSmaato(status){
+		if(status == "SUCCESS"){
+			console.log("SUCCESS");
+		} else if (status == "ERROR"){
+			document.write('<iframe type="text/javascript" src="mopub://failLoad"><\/iframe><script>window.stop();<\/script>');
+		}
+	};
+	var smtLat = "0";
+	var smtLong = "0";
+	if(smtLat === "0" && smtLong === "0"){
+		smtLat = "";
+		smtLong = "";
+	}
+	SomaJS.loadAd({
+		adDivId: "smt-130549578",
+		publisherId: 1100001679,
+		adSpaceId: 130549578,
+		format: "all",
+		formatstrict: true,
+		dimension: "xxlarge",
+		dimensionstrict: true,
+		did: "511F9398-41B4-46E5-A5E7-4C730C70D362",
+		diddnt: ("0" == "1"),
+		latitude: smtLat,
+		longitude: smtLong,
+		age: "",
+		gender: "",
+		keywords: "gmext,,",
+		cb: "1554497241590",
+		sync: true
+	},callBackForSmaato);
+</script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:23.613533-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:24.184201-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:24.184690-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:24.186863-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"7A931","av":"1.0","dn":"iPad7,1","q":"gmext,,","exclude_targeting_hash":"c65c409d0b26474470c8cd10027413f2,f978b11f844c1aaa87612f7be9021b74","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"8","rtc":"1","gdpr_applies":"0","request_id":"1ff9303440574d99855321ca6138088c","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"53206cc199e541559d532d4f929af93c","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"a620bbf3bcd449c9982af05bd8f2e1d0,b42a304cb9a048b1920b6710e3256fb5,be657f7bb88f44f5ad779e668d0cba68"}
+2019-04-05 15:47:24.264924-0500 BannerExample[27236:13141752] MOPUB: There are 1 ad responses
+2019-04-05 15:47:24.265167-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:47:24.265250-0500 BannerExample[27236:13141752] MOPUB: No ads found for ad unit: 53206cc199e541559d532d4f929af93c
+2019-04-05 15:47:24.276223-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"6","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"2a0670211f8d464db979b35f1757b4b7","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:47:24.276537-0500 BannerExample[27236:13141752] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:47:24.276682-0500 BannerExample[27236:13141752] MOPUB: Scheduled the autorefresh timer to fire in 30.0 seconds (0x2835c5ac0).
+2019-04-05 15:47:24.276878-0500 BannerExample[27236:13141752] MOPUB: Banner view (53206cc199e541559d532d4f929af93c) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:47:24.761788-0500 BannerExample[27236:13141752] MOPUB: There are 1 ad responses
+2019-04-05 15:47:24.762381-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:47:24.762601-0500 BannerExample[27236:13141752] MOPUB: No ads found for ad unit: 2a0670211f8d464db979b35f1757b4b7
+2019-04-05 15:47:24.787938-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"23","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"072b226d6b5b477f8967aee529a7e02b","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:47:24.788384-0500 BannerExample[27236:13141752] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:47:24.788585-0500 BannerExample[27236:13141752] MOPUB: Scheduled the autorefresh timer to fire in 30.0 seconds (0x2835d6580).
+2019-04-05 15:47:24.788740-0500 BannerExample[27236:13141752] MOPUB: Banner view (2a0670211f8d464db979b35f1757b4b7) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:47:25.300077-0500 BannerExample[27236:13141752] MOPUB: There are 2 ad responses
+2019-04-05 15:47:25.301615-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:25.303335-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:25.303589-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:25.304043-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 5c50e97869f546a49df2d6432922d8e2 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script type="text/javascript" language="javascript" src="https://adplatform.vrtcal.com/dexch.vap?aid=1981&clickurl=https%3A%2F%2Fads.mopub.com%2Fm%2Faclk%3Fappid%3D%26cid%3Dcf17bca3ab7344c59a037d3cbb80585e%26city%3DSt%2520Louis%26ckv%3D2%26country_code%3DUS%26cppck%3D69BB4%26current_consent_status%3Dunknown%26dev%3DiPad7%252C1%26exclude_adgroups%3D5c50e97869f546a49df2d6432922d8e2%252Caf462f29d66d408c9206d42f49355857%26gdpr_applies%3D0%26id%3D072b226d6b5b477f8967aee529a7e02b%26is_mraid%3D0%26os%3DiOS%26osv%3D12.1.4%26priority%3D11%26req%3D2d48b2613c034c03bce69b08cd463bd2%26reqt%3D1554497244.0%26rev%3D0%26udid%3Difa%253A511F9398-41B4-46E5-A5E7-4C730C70D362%26video_type%3D%26r%3D&cb=1554497244834&auid=072b226d6b5b477f8967aee529a7e02b&plid=e445efad692a4b4ca36c63883a9fe8a1&agid=5c50e97869f546a49df2d6432922d8e2&crid=cf17bca3ab7344c59a037d3cbb80585e&dsturl=&adid=511F9398-41B4-46E5-A5E7-4C730C70D362&keywords=gmext,,&lat=0&long=0&dnt=0&bundle=307184892"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:25.365585-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:26.721687-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:26.721992-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:26.722283-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:26.723881-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:26.724084-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:26.724503-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is af462f29d66d408c9206d42f49355857 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "bdded114b1f26d76ef8dae53411f7655",
+
+        "adspace_width": 320,
+
+        "adspace_height": 50,
+
+        "o_andadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "307184892",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:26.791562-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:27.551105-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:27.551303-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:27.552511-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"F4549","av":"1.0","dn":"iPad7,1","q":"gmext,,","exclude_targeting_hash":"c65c409d0b26474470c8cd10027413f2","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"23","rtc":"1","gdpr_applies":"0","request_id":"2d48b2613c034c03bce69b08cd463bd2","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"072b226d6b5b477f8967aee529a7e02b","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"5c50e97869f546a49df2d6432922d8e2,af462f29d66d408c9206d42f49355857"}
+2019-04-05 15:47:27.695365-0500 BannerExample[27236:13141752] MOPUB: There are 1 ad responses
+2019-04-05 15:47:27.696039-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:47:27.696259-0500 BannerExample[27236:13141752] MOPUB: No ads found for ad unit: 072b226d6b5b477f8967aee529a7e02b
+2019-04-05 15:47:27.721832-0500 BannerExample[27236:13141752] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"22","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"1fbab04b4caa4bcc9569f08fba0ae344","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:47:27.722151-0500 BannerExample[27236:13141752] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:47:27.722296-0500 BannerExample[27236:13141752] MOPUB: Scheduled the autorefresh timer to fire in 30.0 seconds (0x2835f4440).
+2019-04-05 15:47:27.722395-0500 BannerExample[27236:13141752] MOPUB: Banner view (072b226d6b5b477f8967aee529a7e02b) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:47:28.289954-0500 BannerExample[27236:13141752] MOPUB: There are 3 ad responses
+2019-04-05 15:47:28.292400-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:28.294180-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:28.294410-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:28.294808-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 25e4403bafdb443ba4a1c8679d232e0f -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <div id="aolContainer">
+
+<script src="https://ads.nexage.com/adServe?dcn=2c9d2b5001626243a16a53f574fb0166&pos=sports_ios_320x50_standard&grp=&req(loc)=0,0&loctype=1&d(id24)=511F9398-41B4-46E5-A5E7-4C730C70D362&dnt=0&sdk=mopub&of=js&secure=1"></script>
+
+</div>
+
+<script>
+
+  var t = trackImpressionHelper;
+
+  trackImpressionHelper = null;
+
+  if ( document.getElementById("aolContainer").childElementCount > 1 ) {
+
+    window.location="mopub://finishLoad";
+
+    t();
+
+  }
+
+</script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:28.353920-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:28.969477-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:47:28.969780-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:47:28.970070-0500 BannerExample[27236:13141752] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:47:28.971582-0500 BannerExample[27236:13141752] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:47:28.971789-0500 BannerExample[27236:13141752] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:47:28.972270-0500 BannerExample[27236:13141752] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 600b1c5b60654569b3948c1a8d80ae1b -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script type="text/javascript" language="javascript" src="https://adplatform.vrtcal.com/dexch.vap?aid=1670&clickurl=https%3A%2F%2Fads.mopub.com%2Fm%2Faclk%3Fappid%3D%26cid%3D07acfec853c04c7dbc7c8ba28b7ed806%26city%3DSt%2520Louis%26ckv%3D2%26country_code%3DUS%26cppck%3DA4BFF%26current_consent_status%3Dunknown%26dev%3DiPad7%252C1%26exclude_adgroups%3D25e4403bafdb443ba4a1c8679d232e0f%252C600b1c5b60654569b3948c1a8d80ae1b%252C77ec063c8ce44057bd7507bec3c6e640%26gdpr_applies%3D0%26id%3D1fbab04b4caa4bcc9569f08fba0ae344%26is_mraid%3D0%26os%3DiOS%26osv%3D12.1.4%26priority%3D11%26req%3D4068240d216748a09a17d6343725596c%26reqt%3D1554497247.0%26rev%3D0%26udid%3Difa%253A511F9398-41B4-46E5-A5E7-4C730C70D362%26video_type%3D%26r%3D&cb=1554497247756&auid=1fbab04b4caa4bcc9569f08fba0ae344&plid=e445efad692a4b4ca36c63883a9fe8a1&agid=600b1c5b60654569b3948c1a8d80ae1b&crid=07acfec853c04c7dbc7c8ba28b7ed806&dsturl=&adid=511F9398-41B4-46E5-A5E7-4C730C70D362&keywords=gmext,,&lat=0&long=0&dnt=0&bundle=307184892"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:47:29.039869-0500 BannerExample[27236:13141752] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:47:31.030602-0500 BannerExample[27236:13141752] MOPUB: MPAdWebView - loading MoPub URL: mopub://finishLoad
+2019-04-05 15:47:31.030694-0500 BannerExample[27236:13141752] MOPUB: MoPub HTML banner did load
+
+ ***** GADBanner - Success(1) Failed(0) Total(1): SUCCESS = <DFPBannerView: 0x10250c810; frame = (533 387; 300 250); clipsToBounds = YES; layer = <CALayer: 0x282007a60>> - <DFPBannerView: 0x10250c810; frame = (533 387; 300 250); clipsToBounds = YES; layer = <CALayer: 0x282007a60>>
+
+2019-04-05 15:47:31.242389-0500 BannerExample[27236:13141752] MOPUB: Tracking impression: https://ads.mopub.com/m/imp?appid=&cid=07acfec853c04c7dbc7c8ba28b7ed806&city=St%20Louis&ckv=2&country_code=US&cppck=6916A&current_consent_status=unknown&dev=iPad7%2C1&exclude_adgroups=25e4403bafdb443ba4a1c8679d232e0f%2C600b1c5b60654569b3948c1a8d80ae1b%2C77ec063c8ce44057bd7507bec3c6e640&gdpr_applies=0&id=1fbab04b4caa4bcc9569f08fba0ae344&is_ab=0&is_mraid=0&os=iOS&osv=12.1.4&priority=11&req=4068240d216748a09a17d6343725596c&reqt=1554497247.0&rev=0.001000&udid=ifa%3A511F9398-41B4-46E5-A5E7-4C730C70D362&video_type=
+2019-04-05 15:47:31.243329-0500 BannerExample[27236:13141752] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x2835fad40).
+2019-04-05 15:47:51.488970-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:51.493192-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:53.035805-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:53.037278-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:53.585626-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:53.587101-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:54.194234-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:54.199417-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:56.764584-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:56.767663-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:57.558647-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:57.562299-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:47:59.015260-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:47:59.016867-0500 BannerExample[27236:13141752] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service

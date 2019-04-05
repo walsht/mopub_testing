@@ -1,0 +1,685 @@
+2019-04-05 15:49:16.402465-0500 BannerExample[27259:13142545] [DYMTLInitPlatform] platform initialization successful
+2019-04-05 15:49:16.695477-0500 BannerExample[27259:13142477] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2019-04-05 15:49:16.696047-0500 BannerExample[27259:13142477] [MC] Reading from public effective user settings.
+2019-04-05 15:49:17.016923-0500 BannerExample[27259:13142477] MOPUB: GDPR not applicable, consent synchronization will complete immediately
+
+
+Google Mobile Ads SDK version: afma-sdk-i-v7.32.0 - 'GoogleMobileAdsMediationMoPub', '4.16.0'
+
+
+2019-04-05 15:49:17.053508-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:49:17.055920-0500 BannerExample[27259:13142542] <Google> To get test ads on this device, call: request.testDevices = @[ @"824ac90473b15495ca93c27cfb07fd13" ];
+2019-04-05 15:49:17.075550-0500 BannerExample[27259:13142542] Metal GPU Frame Capture Enabled
+2019-04-05 15:49:17.080583-0500 BannerExample[27259:13142542] Metal API Validation Enabled
+2019-04-05 15:49:17.574233-0500 BannerExample[27259:13142562] WF: === Starting WebFilter logging for process BannerExample
+2019-04-05 15:49:17.574425-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:49:17.574575-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:49:17.940530-0500 BannerExample[27259:13142548] <Google:HTML> You are currently using version 7.32.0 of the SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be downloaded from https://goo.gl/UoiJ8F. A full list of release notes is available at https://developers.google.com/admob/ios/rel-notes.
+2019-04-05 15:49:18.328530-0500 BannerExample[27259:13142477] MOPUB: Will not start location updates: the application is not authorized for location services.
+2019-04-05 15:49:18.329384-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"48","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:49:18.329773-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:49:18.331639-0500 BannerExample[27259:13142477] MOPUB: Location authorization status changed to: 0
+2019-04-05 15:49:18.331732-0500 BannerExample[27259:13142477] MOPUB: Stopping any scheduled location updates.
+2019-04-05 15:49:19.047913-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:49:19.050149-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:49:19.052674-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:49:19.052957-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:49:19.053379-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 7749137d1f07490ab582650aecc95e51 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "7d7e304522a3adde55570f4f5517536c",
+
+        "adspace_width": 320,
+
+        "adspace_height": 50,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:49:19.238116-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:49:19.830177-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:49:19.830390-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:49:19.831874-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"54AD8","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"48","rtc":"1","gdpr_applies":"0","request_id":"3eb948b88d57427aad89db1d7c49600c","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"7749137d1f07490ab582650aecc95e51"}
+2019-04-05 15:49:19.889969-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:49:19.890223-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:49:19.890286-0500 BannerExample[27259:13142477] MOPUB: No ads found for ad unit: d4d84eab90bc4de0b6917856d356bd3d
+
+ ***** GADBanner - Success(0) Failed(1) Total(1): FAILED = <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - Request Error: No ad to show from all configured ad networks.
+
+2019-04-05 15:49:19.900976-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x28130db80).
+2019-04-05 15:49:19.901144-0500 BannerExample[27259:13142477] MOPUB: Banner view (d4d84eab90bc4de0b6917856d356bd3d) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:49:49.838086-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:49:49.842746-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:49:49.913327-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:49:50.345091-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"11","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:49:50.345654-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:49:51.133473-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:49:51.134543-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:49:51.136507-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:49:51.136803-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:49:51.137685-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 7749137d1f07490ab582650aecc95e51 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "7d7e304522a3adde55570f4f5517536c",
+
+        "adspace_width": 320,
+
+        "adspace_height": 50,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:49:51.193880-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:49:51.702587-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:49:51.702785-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:49:51.704261-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"363AF","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"11","rtc":"1","gdpr_applies":"0","request_id":"c6b2acd04343425eb4c71c2ec3b81d5c","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"7749137d1f07490ab582650aecc95e51"}
+2019-04-05 15:49:51.821301-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:49:51.821643-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:49:51.821757-0500 BannerExample[27259:13142477] MOPUB: No ads found for ad unit: d4d84eab90bc4de0b6917856d356bd3d
+
+ ***** GADBanner - Success(0) Failed(2) Total(2): FAILED = <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - Request Error: No ad to show from all configured ad networks.
+
+2019-04-05 15:49:51.840406-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x281397500).
+2019-04-05 15:49:51.840701-0500 BannerExample[27259:13142477] MOPUB: Banner view (d4d84eab90bc4de0b6917856d356bd3d) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:50:21.710732-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:50:21.716431-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:50:21.852612-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:21.889440-0500 BannerExample[27259:13142685] <Google:HTML> You are currently using version 7.32.0 of the SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be downloaded from https://goo.gl/UoiJ8F. A full list of release notes is available at https://developers.google.com/admob/ios/rel-notes.
+2019-04-05 15:50:22.252643-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"12","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"c65be865f1b341758116d9b48c88fa61","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:50:22.253128-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:50:23.076666-0500 BannerExample[27259:13142477] MOPUB: There are 2 ad responses
+2019-04-05 15:50:23.077223-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:50:23.077837-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:50:23.077914-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:50:23.078056-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 30389cbcd23b4cbdab82fe19fab96f94 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -150px !important; margin-top: -125px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "3df142eb9d001a6bf5b14743880fb6a2",
+
+        "adspace_width": 300,
+
+        "adspace_height": 250,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:50:23.192200-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:50:23.775168-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:50:23.775354-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:50:23.775531-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:50:23.776458-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:50:23.776606-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:50:23.776882-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 4ac8030b8d61493295e420a1fe5261d6 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -150px !important; margin-top: -125px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script type="text/javascript" language="javascript" src="https://adplatform.vrtcal.com/dexch.vap?aid=1671&clickurl=https%3A%2F%2Fads.mopub.com%2Fm%2Faclk%3Fappid%3D%26cid%3D89b6150b29e941c8804204172b449a54%26city%3DSt%2520Louis%26ckv%3D2%26country_code%3DUS%26cppck%3DEA3D8%26current_consent_status%3Dunknown%26dev%3DiPad7%252C1%26exclude_adgroups%3D30389cbcd23b4cbdab82fe19fab96f94%252C4ac8030b8d61493295e420a1fe5261d6%26gdpr_applies%3D0%26id%3Dc65be865f1b341758116d9b48c88fa61%26is_mraid%3D0%26os%3DiOS%26osv%3D12.1.4%26priority%3D11%26req%3Dd5c6bdbf9b164876a81c3cf0266066ed%26reqt%3D1554497422.0%26rev%3D0%26udid%3Difa%253A511F9398-41B4-46E5-A5E7-4C730C70D362%26video_type%3D%26r%3D&cb=1554497422327&auid=c65be865f1b341758116d9b48c88fa61&plid=51acf9405a15454c8f70cfd7bbe90ba9&agid=4ac8030b8d61493295e420a1fe5261d6&crid=89b6150b29e941c8804204172b449a54&dsturl=&adid=511F9398-41B4-46E5-A5E7-4C730C70D362&keywords=gmext,,&lat=0&long=0&dnt=0&bundle=333647776"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:50:23.833082-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:50:25.491434-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:50:25.491593-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:50:25.492829-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"CE9CD","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"12","rtc":"1","gdpr_applies":"0","request_id":"d5c6bdbf9b164876a81c3cf0266066ed","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"c65be865f1b341758116d9b48c88fa61","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"30389cbcd23b4cbdab82fe19fab96f94,4ac8030b8d61493295e420a1fe5261d6"}
+2019-04-05 15:50:25.607833-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:50:25.608083-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:50:25.608162-0500 BannerExample[27259:13142477] MOPUB: No ads found for ad unit: c65be865f1b341758116d9b48c88fa61
+2019-04-05 15:50:25.622291-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"13","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"d0bb72cc112944cfb897a44df116e353","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:50:25.622614-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:50:25.622772-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 30.0 seconds (0x28136d200).
+2019-04-05 15:50:25.622869-0500 BannerExample[27259:13142477] MOPUB: Banner view (c65be865f1b341758116d9b48c88fa61) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:50:26.327906-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:50:26.328827-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:50:26.330789-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:50:26.331025-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:50:26.331764-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is f5a28a16cb09466f905d7994769e920b -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -150px !important; margin-top: -125px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "cfc0e1c0f270d0f3f37b1dc4a99cf61e",
+
+        "adspace_width": 300,
+
+        "adspace_height": 250,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:50:26.389380-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:50:26.974853-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:50:26.975035-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:50:26.976298-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"5D3FD","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"13","rtc":"1","gdpr_applies":"0","request_id":"9e2ac996cef74636bc6eea8b42412ae9","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"d0bb72cc112944cfb897a44df116e353","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"f5a28a16cb09466f905d7994769e920b"}
+2019-04-05 15:50:27.102462-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:50:27.102703-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:50:27.102783-0500 BannerExample[27259:13142477] MOPUB: No ads found for ad unit: d0bb72cc112944cfb897a44df116e353
+
+ ***** GADBanner - Success(0) Failed(3) Total(3): FAILED = <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (533 387; 300 250); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - Request Error: No ad to show from all configured ad networks.
+
+2019-04-05 15:50:27.111232-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x281351dc0).
+2019-04-05 15:50:27.111326-0500 BannerExample[27259:13142477] MOPUB: Banner view (d0bb72cc112944cfb897a44df116e353) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:50:53.807874-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:50:53.809478-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:50:55.498693-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:50:55.504123-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:50:56.981859-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:50:56.987122-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:50:57.123569-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:57.964995-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:57.969597-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+
+ ***** GADBanner - Success(1) Failed(3) Total(4): SUCCESS = <DFPBannerView: 0x10be07be0; frame = (319 467; 728 90); clipsToBounds = YES; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (319 467; 728 90); clipsToBounds = YES; layer = <CALayer: 0x2806d8ea0>>
+
+2019-04-05 15:50:57.988304-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:50:57.988520-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:50:58.007965-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:50:58.008037-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:50:58.019219-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:50:58.019261-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:50:58.210694-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:50:58.210936-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:50:58.221846-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:58.484407-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:58.527972-0500 BannerExample[27259:13142562] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    noOverridingAllowed = 1;
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2019-04-05 15:50:58.528017-0500 BannerExample[27259:13142562] WF: _WebFilterIsActive returning: NO
+2019-04-05 15:50:58.805978-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:59.173262-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:50:59.608665-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:00.012313-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:00.408081-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:00.818960-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:01.207888-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:01.610660-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:02.015362-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:02.417364-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:02.810687-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:03.210191-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:03.616988-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:04.005051-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:04.412518-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:04.799021-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:05.215885-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:05.610428-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:06.010534-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:06.411295-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:06.816492-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:07.216386-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:07.616681-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:08.016199-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:08.417654-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:08.776486-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:09.218839-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:09.616390-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:10.016493-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:10.416640-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:10.817245-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:11.219133-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:11.617087-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:11.999783-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:12.417294-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:12.813608-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:13.217101-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:13.617241-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:14.005481-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:14.419239-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:14.817494-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:15.209863-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:15.609233-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:16.009298-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:16.409830-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:16.817718-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:17.209958-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:17.610099-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:18.010257-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:18.410279-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:18.791265-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:19.218420-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:19.610295-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:20.018381-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:20.418511-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:20.816169-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:21.211613-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:21.617823-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:22.012249-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:22.410591-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:22.810470-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:23.210058-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:23.611208-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:24.013867-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:24.410982-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:24.811460-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:25.215978-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:25.605506-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:26.011376-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:26.416201-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:26.811323-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:27.213767-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:27.543163-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:27.582328-0500 BannerExample[27259:13142536] <Google:HTML> You are currently using version 7.32.0 of the SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be downloaded from https://goo.gl/UoiJ8F. A full list of release notes is available at https://developers.google.com/admob/ios/rel-notes.
+2019-04-05 15:51:27.584448-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:27.971489-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:27.981334-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"6","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:51:27.981827-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:51:28.759445-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:51:28.760865-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: html
+2019-04-05 15:51:28.763495-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPHTMLBannerCustomEvent.
+2019-04-05 15:51:28.763904-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub HTML banner
+2019-04-05 15:51:28.764347-0500 BannerExample[27259:13142477] MOPUB: Loading banner with HTML source:  <!DOCTYPE html> <html> <head>  <!-- Adgroup is 7749137d1f07490ab582650aecc95e51 -->  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  <style type='text/css'> .mp_center { position: fixed; top: 50%; left: 50%; margin-left: -160px !important; margin-top: -25px !important; } </style>  <script type="text/javascript"> function mopubFinishLoad(){ setTimeout(function() { window.location = 'mopub://finishLoad'; }, 0); } </script>  <script type="text/javascript"> function webviewDidClose(){ if (typeof webviewDidCloseHelper == 'function') { webviewDidCloseHelper(); } } function webviewDidAppear(){  if(typeof trackImpressionHelper == 'function') { trackImpressionHelper(); }  if(typeof webviewDidAppearHelper == 'function') { webviewDidAppearHelper(); } } window.addEventListener("load", function() { var links = document.getElementsByTagName('a'); for(var i=0; i < links.length; i++) { links[i].setAttribute('target','_blank'); } }, false);  </script>  </head> <body style="margin:0;padding:0;"> <script>
+
+    var mobFoxParams = {
+
+        "r_type": "banner",
+
+        "s": "7d7e304522a3adde55570f4f5517536c",
+
+        "adspace_width": 320,
+
+        "adspace_height": 50,
+
+        "o_iosadvid": "511F9398-41B4-46E5-A5E7-4C730C70D362",
+
+        "sub_bundle_id": "333647776",
+
+        "longitude": "0",
+
+        "latitude": "0",
+
+        "age": "",
+
+        "gender": "",
+
+        "c_mraid": 2
+
+    };
+
+</script>
+
+<script src="//sdk.starbolt.io/dist/superagent.min.js"></script>
+
+<script src="//sdk.starbolt.io/dist/mopub-combined-super.js"></script> <script type="text/javascript"> if (typeof htmlWillCallFinishLoad == "undefined" || !htmlWillCallFinishLoad) { if(typeof mopubFinishLoad == 'function') { window.onload = mopubFinishLoad; } }  </script>  </body> </html>
+2019-04-05 15:51:28.824984-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:51:29.396533-0500 BannerExample[27259:13142477] MOPUB: MPAdWebView - loading MoPub URL: mopub://failLoad
+2019-04-05 15:51:29.396742-0500 BannerExample[27259:13142477] MOPUB: MoPub HTML banner did fail
+2019-04-05 15:51:29.397845-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"cppck":"7BFD9","av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"6","rtc":"1","gdpr_applies":"0","request_id":"34af4ceaa19647169ead4231f98d0e0b","h":"2048","udid":"ifa:XXXX","ct":"2","nv":"5.4.1","v":"8","w":"2732","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","ac":"3","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l","exclude":"7749137d1f07490ab582650aecc95e51"}
+2019-04-05 15:51:29.482193-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:51:29.482447-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: clear
+2019-04-05 15:51:29.482527-0500 BannerExample[27259:13142477] MOPUB: No ads found for ad unit: d4d84eab90bc4de0b6917856d356bd3d
+
+ ***** GADBanner - Success(1) Failed(4) Total(5): FAILED = <DFPBannerView: 0x10be07be0; frame = (319 467; 728 90); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (319 467; 728 90); clipsToBounds = YES; alpha = 0; layer = <CALayer: 0x2806d8ea0>> - Request Error: No ad to show from all configured ad networks.
+
+2019-04-05 15:51:29.492485-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x28130fa00).
+2019-04-05 15:51:29.492672-0500 BannerExample[27259:13142477] MOPUB: Banner view (d4d84eab90bc4de0b6917856d356bd3d) failed. Error: Error Domain=com.mopub.iossdk Code=0 "(null)"
+2019-04-05 15:51:59.402691-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2019-04-05 15:51:59.407316-0500 BannerExample[27259:13142477] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service
+2019-04-05 15:51:59.504403-0500 BannerExample[27259:13142477] [avas] AVAudioSessionPortImpl.mm:56:ValidateRequiredFields: Unknown selected data source for Port Bose Headphones (type: BluetoothA2DPOutput)
+2019-04-05 15:51:59.874944-0500 BannerExample[27259:13142477] MOPUB: Loading ad with MoPub server URL: https://ads.mopub.com/m/ad
+{"av":"1.0","q":"gmext,,","dn":"iPad7,1","force_gdpr_applies":"0","vv":"0","ats":"1","llf":"11","gdpr_applies":"0","h":"2048","udid":"ifa:XXXX","nv":"5.4.1","ct":"2","w":"2732","v":"8","id":"d4d84eab90bc4de0b6917856d356bd3d","ll":"0,0","mr":"1","bundle":"com.cbsinteractive.dev.tvguide","z":"-0500","sc":"2.0","user_data_q":"","current_consent_status":"unknown","o":"l"}
+2019-04-05 15:51:59.876164-0500 BannerExample[27259:13142477] MOPUB: Requesting Banner Ad from MoPub Ad Network.
+2019-04-05 15:52:00.296296-0500 BannerExample[27259:13142477] MOPUB: There are 1 ad responses
+2019-04-05 15:52:00.297447-0500 BannerExample[27259:13142477] MOPUB: Banner ad view is fetching ad network type: mraid
+2019-04-05 15:52:00.299473-0500 BannerExample[27259:13142477] MOPUB: Looking for custom event class named MPMRAIDBannerCustomEvent.
+2019-04-05 15:52:00.301849-0500 BannerExample[27259:13142477] MOPUB: Loading MoPub MRAID banner
+2019-04-05 15:52:00.355674-0500 BannerExample[27259:13142477] MOPUB: Sucessfully sent before load URL
+2019-04-05 15:52:00.805096-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: ****** mraid *****
+2019-04-05 15:52:00.911491-0500 BannerExample[27259:13142477] MOPUB: MoPub MRAID banner did load
+2019-04-05 15:52:00.917294-0500 BannerExample[27259:13142477] MOPUB: Injecting initial JavaScript state.
+2019-04-05 15:52:00.917417-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.fireChangeEvent({hostSDKVersion: '5.4.1', placementType: 'inline', supports: {sms: false, tel: false, calendar: false, storePicture: false, inlineVideo: true}, state: 'default'})
+2019-04-05 15:52:00.917494-0500 BannerExample[27259:13142477] MOPUB: Viewable changed to: YES
+2019-04-05 15:52:00.917541-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.fireChangeEvent({viewable: true})
+2019-04-05 15:52:00.917588-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(319.0, 467.0, 320.0, 50.0)
+2019-04-05 15:52:00.917634-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{319, 467}, {320, 50}}
+2019-04-05 15:52:00.917658-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(319.0, 467.0, 320.0, 50.0)
+2019-04-05 15:52:00.917704-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{319, 467}, {320, 50}}
+2019-04-05 15:52:00.917726-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:00.917760-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:00.917820-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:00.917854-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:00.917879-0500 BannerExample[27259:13142477] MOPUB: Ad Size (Size Event): {320, 50}
+2019-04-05 15:52:00.917898-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.notifySizeChangeEvent(320.0, 50.0)
+2019-04-05 15:52:00.917997-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.fireReadyEvent()
+
+ ***** GADBanner - Success(2) Failed(4) Total(6): SUCCESS = <DFPBannerView: 0x10be07be0; frame = (319 467; 320 50); clipsToBounds = YES; layer = <CALayer: 0x2806d8ea0>> - <DFPBannerView: 0x10be07be0; frame = (319 467; 320 50); clipsToBounds = YES; layer = <CALayer: 0x2806d8ea0>>
+
+2019-04-05 15:52:01.068060-0500 BannerExample[27259:13142542] MOPUB: Network request failed with: no data found in the NSHTTPURLResponse
+2019-04-05 15:52:01.068208-0500 BannerExample[27259:13142477] MOPUB: Failed to send after load URL: https://reports.ubimo.com/fb?b=JYbnDxX-ug0YJDRjNjAzMjFlLTY2NWQtNDA5Yy1hMDBjLWViOGM2MmE2ZDliZCMFJeiHBBUQGCQ1MTFGOTM5OC00MUI0LTQ2RTUtQTVFNy00QzczMEM3MEQzNjIVABWmBAA&c=MTY6Og&wp=2.36
+2019-04-05 15:52:01.121998-0500 BannerExample[27259:13142477] MOPUB: Tracking impression: https://reports.ubimo.com/fb?b=JYbnDxX-ug0YJDRjNjAzMjFlLTY2NWQtNDA5Yy1hMDBjLWViOGM2MmE2ZDliZCMFJeiHBBUQGCQ1MTFGOTM5OC00MUI0LTQ2RTUtQTVFNy00QzczMEM3MEQzNjIVABWmBAA&c=MTM6Og&wp=2.36
+2019-04-05 15:52:01.122671-0500 BannerExample[27259:13142477] MOPUB: Scheduled the autorefresh timer to fire in 999999.0 seconds (0x281329a80).
+2019-04-05 15:52:01.165151-0500 BannerExample[27259:13142934] [] nw_connection_fillout_tcp_statistics [C34] Connection is not ready
+2019-04-05 15:52:01.165186-0500 BannerExample[27259:13142934] [] tcp_connection_get_statistics Failed to get statistics from connection
+2019-04-05 15:52:01.168168-0500 BannerExample[27259:13142536] MOPUB: Network request failed with: no data found in the NSHTTPURLResponse
+2019-04-05 15:52:01.195869-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: setting useCustomClose to true
+2019-04-05 15:52:01.196776-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP init
+2019-04-05 15:52:01.197191-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: INFO: INAPP setting deviceProps
+2019-04-05 15:52:01.197405-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: MRAID init called
+2019-04-05 15:52:01.197759-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: INFO: MRAID already ready, calling init directly
+2019-04-05 15:52:01.198271-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: MRAID ready event called
+2019-04-05 15:52:01.198808-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP registerErrorHandler
+2019-04-05 15:52:01.199144-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP bindPanelAction
+2019-04-05 15:52:01.199247-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP bindBannerResize
+2019-04-05 15:52:01.199336-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP bindTrackInteraction
+2019-04-05 15:52:01.199522-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP setClickDelegate
+2019-04-05 15:52:01.200118-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: DEBUG: INAPP setImpressionDelegate
+2019-04-05 15:52:01.202782-0500 BannerExample[27259:13142477] MOPUB: Web console: ios-log: ERR: INAPP Listener not currently registered for event.(from action removeEventListener)
+2019-04-05 15:52:01.303449-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:01.303535-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:01.303558-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:01.303595-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:01.303619-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:01.303649-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:01.303697-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:01.303726-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:01.322499-0500 BannerExample[27259:13142934] TIC Read Status [33:0x2833ef9c0]: 1:57
+2019-04-05 15:52:02.304616-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:02.304955-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:02.305092-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:02.305302-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:02.305417-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:02.305586-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:02.305851-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:02.306039-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:03.303914-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:03.304567-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:03.304759-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:03.305015-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:03.305145-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:03.305342-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:03.305656-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:03.305831-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:04.305113-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:04.305738-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:04.306015-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:04.306465-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:04.306690-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:04.307112-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:04.307753-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:04.308289-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:05.304738-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:05.305611-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:05.305905-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:05.306458-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:05.306693-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:05.307032-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:05.307535-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:05.307877-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:06.304694-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:06.305313-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:06.305609-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:06.306061-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:06.306344-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:06.306710-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:06.307405-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:06.307788-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:07.303893-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:07.304649-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:07.304928-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:07.305608-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:07.305940-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:07.306295-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:07.306796-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:07.307304-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:08.304668-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:08.305291-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:08.305585-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:08.305999-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:08.306342-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:08.306748-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:08.307246-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:08.307617-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:09.303535-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:09.304115-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:09.304380-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:09.304805-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:09.305033-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:09.305362-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:09.305856-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:09.306194-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:10.304464-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:10.305083-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:10.305339-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:10.305737-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:10.305961-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:10.306329-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:10.306800-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:10.307162-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:11.304219-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:11.304565-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:11.304702-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:11.304909-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:11.305026-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:11.305196-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:11.305462-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:11.305654-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:12.304469-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:12.305094-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:12.305354-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:12.305825-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:12.306046-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:12.306488-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:12.306963-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:12.307349-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:13.304370-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:13.304993-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:13.305289-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:13.305889-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:13.306141-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:13.306584-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:13.307296-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:13.307706-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:14.304323-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:14.304956-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:14.305241-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:14.305648-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:14.305867-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:14.306189-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:14.306813-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:14.307217-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:15.304252-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:15.304881-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:15.305178-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:15.305713-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:15.305960-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:15.306301-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:15.306816-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:15.307488-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:16.303554-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:16.304194-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:16.304462-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:16.304901-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:16.305350-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:16.305713-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:16.306207-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:16.306599-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:17.303451-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:17.304055-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:17.304316-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:17.304760-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:17.305041-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:17.305394-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:17.305870-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:17.306525-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:18.303499-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:18.304107-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:18.304371-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:18.304776-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:18.304999-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:18.305552-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:18.306050-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:18.306485-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:19.303770-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:19.304394-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:19.304662-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:19.305073-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:19.305302-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:19.305642-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:19.306128-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:19.306485-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:20.303965-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:20.304569-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:20.304835-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:20.305457-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:20.306015-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:20.306434-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:20.306951-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:20.307530-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:21.304108-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:21.304720-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:21.305009-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:21.305383-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:21.305743-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:21.306093-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:21.306595-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:21.306964-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:22.303274-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:22.304008-0500 BannerExample[27259:13142477] MOPUB: Current Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:22.304264-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setDefaultPosition(523.0, 487.0, 320.0, 50.0)
+2019-04-05 15:52:22.304940-0500 BannerExample[27259:13142477] MOPUB: Default Position: {{523, 487}, {320, 50}}
+2019-04-05 15:52:22.305209-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setScreenSize(1366.0, 1024.0)
+2019-04-05 15:52:22.305611-0500 BannerExample[27259:13142477] MOPUB: Screen Size: {1366, 1024}
+2019-04-05 15:52:22.306125-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setMaxSize(1366.0, 1004.0)
+2019-04-05 15:52:22.306666-0500 BannerExample[27259:13142477] MOPUB: Max Size: {1366, 1004}
+2019-04-05 15:52:23.303634-0500 BannerExample[27259:13142477] MOPUB: mraidbridge.setCurrentPosition(523.0, 487.0, 320.0, 50.0)
