@@ -16,6 +16,7 @@
 
 import GoogleMobileAds
 import UIKit
+import MoPub
 import MoPubAdapter
 
 class ViewController: UIViewController, GADBannerViewDelegate {
@@ -26,8 +27,13 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     var successRequest = 0
     var dfpBannerView: DFPBannerView = {
         var validAdSizes = [CGSize]()
-        validAdSizes.append(CGSize(width: 300.0, height: 250.0))
+//        validAdSizes.append(CGSize(width: 300.0, height: 250.0))
         validAdSizes.append(CGSize(width: 320.0, height: 50.0))
+//        validAdSizes.append(CGSize(width: 480.0, height: 32.0))
+//        validAdSizes.append(CGSize(width: 728.0, height: 90.0))
+//        validAdSizes.append(CGSize(width: 1024.0, height: 66.0))
+//        validAdSizes.append(CGSize(width: 1024.0, height: 90.0))
+        
         let dfpBannerView = DFPBannerView(adSize: GADAdSizeFromCGSize(validAdSizes.first!))
         dfpBannerView.validAdSizes = validAdSizes.map { NSValueFromGADAdSize(GADAdSizeFromCGSize($0)) }
         return dfpBannerView
@@ -35,7 +41,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     
     override func viewDidLoad() {
     super.viewDidLoad()
-    print("\n\nGoogle Mobile Ads SDK version: \(GADRequest.sdkVersion()) - 'GoogleMobileAdsMediationMoPub', '4.16.0'\n\n")
+        print("\n\nGoogle Mobile Ads SDK version: \(GADRequest.sdkVersion()) - 'GoogleMobileAdsMediationMoPub', \(MoPub.sharedInstance().version())\n\n")
         view.addSubview(dfpBannerView)
         dfpBannerView.translatesAutoresizingMaskIntoConstraints = false
         if #available(iOS 9.0, *) {
@@ -51,23 +57,24 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     func setUpBanner(banner: DFPBannerView){
         
         banner.adUnitID = "/8264/appaw-tvguide/listings"
+//        banner.adUnitID = "/8264/appaw-cbssports/hockey"
         banner.rootViewController = self
         banner.delegate = self
         let request = DFPRequest()
-        var targeting = [AnyHashable : Any]()
-        targeting["env"] = "production"
-        targeting["pname"] = "sports"
-        targeting["pos"] = "1"
-        targeting["provider"] = "Broadcast"
-        targeting["ptype"] = "sports"
-        targeting["session"] = "a"
-        targeting["subses"] = "4"
-        targeting["vguid"] = "98ae572e-2afb-4888-ab4a-df18b715733a"
-        request.customTargeting = targeting
+//        var targeting = [AnyHashable : Any]()
+////        targeting["env"] = "production"
+////        targeting["pname"] = "sports"
+////        targeting["pos"] = "1"
+////        targeting["provider"] = "Broadcast"
+////        targeting["ptype"] = "sports"
+////        targeting["session"] = "a"
+////        targeting["subses"] = "4"
+////        targeting["vguid"] = "98ae572e-2afb-4888-ab4a-df18b715733a"
+//        request.customTargeting = targeting
         
-        let moPubExtras = GADMoPubNetworkExtras()
-        moPubExtras.privacyIconSize = 20
-        request.register(moPubExtras)
+//        let moPubExtras = GADMoPubNetworkExtras()
+//        moPubExtras.privacyIconSize = 20
+//        request.register(moPubExtras)
         dfpBannerView.alpha = 0.0
         setDetail()
         banner.load(request)
@@ -86,6 +93,9 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         setDetail()
     }
     
+    @IBAction func refresh(_ sender: Any) {
+        setUpBanner(banner: dfpBannerView)
+    }
     /// Tells the delegate an ad request failed.
     func adView(_ bannerView: GADBannerView,
                 didFailToReceiveAdWithError error: GADRequestError) {

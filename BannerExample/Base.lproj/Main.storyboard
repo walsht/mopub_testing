@@ -27,13 +27,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcb-wY-u5Q">
+                                <rect key="frame" x="161" y="97" width="53" height="30"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="refresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJY-pk-aMI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gwq-ka-8s0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1n1-t3-3Ge"/>
                             <constraint firstItem="gwq-ka-8s0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7UD-rR-hYR"/>
+                            <constraint firstItem="Hcb-wY-u5Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HxH-vK-tuv"/>
                             <constraint firstItem="gwq-ka-8s0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="I0i-uR-gvO"/>
                             <constraint firstItem="gwq-ka-8s0" firstAttribute="top" secondItem="TWU-f5-Eu7" secondAttribute="bottom" constant="8" id="XPz-g7-1pi"/>
+                            <constraint firstItem="Hcb-wY-u5Q" firstAttribute="top" secondItem="gwq-ka-8s0" secondAttribute="bottom" constant="8" id="r6q-wv-r7k"/>
                         </constraints>
                     </view>
                     <connections>
