@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
     // Used only for old SDKs   
-//    MPLogSetLevel(MPLogLevelAll)
+    MPLogSetLevel(MPLogLevelAll)
     
     // Used only for latest SDKs
     let mopubConfig = MPMoPubConfiguration.init(adUnitIdForAppInitialization: "652c5ed280be404ea2d10fc2ae26dc5f")
